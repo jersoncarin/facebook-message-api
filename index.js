@@ -675,8 +675,8 @@ const startService = async (options) => {
 }
 
 const init = (options = {}) => {
-  Object.keys(globalOptions)
-    .filter((x) => !Object.keys(options).includes(x))
+  Object.keys(options)
+    .filter((x) => !Object.keys(globalOptions).includes(x))
     .forEach((keys) => {
       if (options[keys] !== undefined) {
         appOptions = { ...appOptions, [`${keys}`]: options[keys] }
