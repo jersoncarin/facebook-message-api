@@ -162,7 +162,7 @@ Add command Description
 
 **Arguments**
 
-- `name`: A command description, optional.
+- `description`: A command description, optional.
 
 ---
 
@@ -174,7 +174,7 @@ Add command alias
 
 **Arguments**
 
-- `name`: A command alias, optional.
+- `alias`: A command alias, optional.
 
 ---
 
