@@ -1,0 +1,33 @@
+{
+  "name": "facebook-message-api",
+  "version": "1.0.1",
+  "description": "Unofficial Facebook Chat API for user-account (not page).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint --fix ."
+  },
+  "keywords": [
+    "facebook",
+    "chat",
+    "api"
+  ],
+  "author": "Avery, David, Maude, Benjamin, UIRI, Jerson Carin",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.11.0",
+    "chalk": "2.4.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^15.0.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^3.0.0",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15",
+    "npmlog": "^1.2.0",
+    "prettier": "^2.5.1",
+    "puppeteer": "^13.3.0",
+    "request": "^2.53.0",
+    "user-agents": "^1.0.918",
+    "websocket-stream": "^5.5.0"
+  }
+}
