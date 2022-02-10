@@ -51,10 +51,10 @@ const eventMiddleware2 = (next) => {
         // Or handle after event has been resolved
     }
 }
+
 command.addEventMiddleware(eventMiddleware1,eventMiddleware2)
 
 // Also you may listen the event using on function
-
 // Listen all incoming events using wildcards
 command.on('*', (event,api,options) => {
     // handle all event here
