@@ -1,6 +1,6 @@
 {
   "name": "facebook-message-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unofficial Facebook Chat API for user-account (not page).",
   "main": "index.js",
   "scripts": {
