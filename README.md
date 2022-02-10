@@ -1,4 +1,3 @@
-This repo is a fork from main repo and will usually have new features bundled faster than main repo (and maybe bundle some bugs, too).
 # Facebook Message API
 
 This API is the only way to automate chat functionalities on a user account. We do this by emulating the browser. This means doing the exact same GET/POST requests and tricking Facebook into thinking we're accessing the website normally. Because we're doing it this way, this API won't work with an auth token but requires the credentials of a Facebook account.
@@ -71,7 +70,7 @@ command.on('init',(api,options) => {
 })
 
 // You can also listen before the scripts restarted
-// Why scripts should restart? because we need to make new facebook home request inorder to get new session token, this will prevent from login state expiration.
+// Why scripts should restart ? because we need to make new facebook home request inorder to get new session token, this will prevent from login state expiration.
 command.on('restarting',(api,options) => {
     // handle before the script will be restarted
 })
@@ -80,7 +79,7 @@ command.on('restarting',(api,options) => {
 command
   .add(async function (match, event, api) {
     // Handle inspire command here
-    console.log(matche) // { category: 'value here' }
+    console.log(match) // { category: 'value here' }
   })
   .addName('inspire')
   .addDescription('Generate motivational quotes.')
